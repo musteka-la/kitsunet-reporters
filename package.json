@@ -2,10 +2,13 @@
   "name": "kitsunet-reporters",
   "version": "1.0.0",
   "description": "kitsunet stats reporters",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "libp2p-switch": "^0.42.2"
+  }
 }
